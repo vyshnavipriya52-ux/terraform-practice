@@ -1,41 +1,64 @@
-# Terraform Workspaces with Modules
+# Terraform Practice Repository
 
-## Project Overview
+This repository contains multiple Terraform projects created for learning and DevOps practice.
 
-This project demonstrates:
+---
 
-- Terraform Modules
-- Terraform Workspaces
-- AWS EC2 provisioning
-- AWS S3 bucket creation
-- Remote backend setup
-- Environment isolation using workspaces
+# Projects Included
 
-## Technologies Used
+- Terraform EC2
+- Terraform S3
+- Terraform Nginx
+- Terraform Backend with S3 & DynamoDB
+- Terraform Workspaces & Modules
+- Terraform Security Groups
+
+---
+
+# Technologies Used
 
 - Terraform
 - AWS
-- GitHub
-- VS Code
+- EC2
+- S3
+- DynamoDB
+- Security Groups
+- Nginx
 
-## Project Structure
+---
 
-```text
-modules/
- ├── ec2/
- └── s3/
-```
+# Terraform Concepts Covered
 
-## Environments
+- Providers
+- Resources
+- Variables
+- Outputs
+- terraform.tfvars
+- Security Groups
+- user_data
+- Terraform Modules
+- Terraform Workspaces
+- Remote Backend
+- State Locking
 
-- dev
-- stage
-- prod
+---
 
-## Commands Used
+# Commands Used
 
-```bash
 terraform init
-terraform workspace new dev
+
+terraform fmt
+
+terraform validate
+
+terraform plan
+
 terraform apply
-```
+
+terraform destroy
+
+---
+
+# Author
+
+Vyshnavi Priya
